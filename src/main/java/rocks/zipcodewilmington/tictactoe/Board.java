@@ -33,7 +33,7 @@ public class Board {
 
     public String getWinner()
     {
-        return null;
+        return playertoWin();
     }
 
     private String playertoWin() {
