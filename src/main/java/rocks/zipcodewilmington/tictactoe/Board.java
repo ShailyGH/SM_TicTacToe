@@ -21,7 +21,10 @@ public class Board {
     }
 
     public Boolean isInFavorOfO() {
-        return null;
+        if ("O".equals(playertoWin())) {
+            return true;
+        }
+        return false;
     }
 
     public Boolean isTie() {
